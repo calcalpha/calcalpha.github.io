@@ -1,32 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="color-scheme" content="light dark">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Calculator</title>
-    <link rel="stylesheet" href="styles/third_party/katex.css">
-    <link rel="stylesheet" href="styles/calculator.css">
-    <script src="scripts/third_party/jquery.js" defer></script>
-    <script src="scripts/third_party/katex.js" defer></script>
-    <script type="module" src="scripts/calculator.mjs" defer></script>
+    <link rel="canonical" href="https://calculator-online.github.io/">
+    <link rel="stylesheet" href="src/calc.css">
+    <script type="module" src="src/calc.mjs"></script>
   </head>
   <body>
-    <form id="calculator-form">
-      <input id="input-field" autocomplete="off">
-      <button id="submit-button" title="compute input"></button>
-    </form>
-    <section id="results"></section>
-    <section id="throbber">
-      <p>
-        <img
-          src="images/Flickr-inspired_Pulsar_Throbber.gif"
-          alt="Computing..."
-          title="Flickr-inspired Pulsar Throbber by swilsonmc [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons https://commons.wikimedia.org/wiki/File:Flickr-inspired_Pulsar_Throbber.gif"
-        >
-      </p>
-    </section>
-    <section id="timeout">
-      <p>Standard computation time exceeded...</p>
-    </section>
+    <input class="input" autofocus>
+    <div class="output-container">
+      <label class="output-label">
+        <output class="output"></output>
+      </label>
+    </div>
   </body>
 </html>
