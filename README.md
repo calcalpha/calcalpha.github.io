@@ -1,4 +1,4 @@
-# [Calculator](https://calculator-online.github.io/)
+# [Calculator](https://calcalpha.github.io/)
 
 * [Mint](https://min.togetter.com/eKWLarx#h0_0)
 
