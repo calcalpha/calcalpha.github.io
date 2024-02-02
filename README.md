@@ -1,4 +1,4 @@
-# [Calculator](https://ghpws.github.io/calc/)
+# [Calculator](https://yuukiapps.github.io/calc/)
 
 * [Mint](https://min.togetter.com/eKWLarx)
 
